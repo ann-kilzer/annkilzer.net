@@ -1,5 +1,6 @@
 <template>
-  <div class="container w-max flex m-4">
+  <div class="container w-max flex m-4 justify-between">
+    <span>Ann Kilzer</span>
     <nav v-for="link in links" :key="link.name">
       <a :href="link.path" class="m-2">{{ link.name }}</a>
     </nav>
