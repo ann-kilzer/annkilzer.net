@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="container">
+    Coming soon :)
     <div class="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4">
       <div v-for="i in boxes" :key="i" container class="border-yellow-200 box-border border-4">
         <img src="http://placekitten.com/300/300"/>
