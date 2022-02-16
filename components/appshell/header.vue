@@ -1,9 +1,11 @@
 <template>
-  <div class="container w-max flex m-4 justify-between">
-    <a href="/"><span>Ann Kilzer</span></a>
-    <nav v-for="link in links" :key="link.name">
-      <a :href="link.path" class="m-2">{{ link.name }}</a>
-    </nav>
+  <div class="container w-max flex m-4">
+    <div class="grid grid-cols-4 gap-8">
+      <a href="/"><span>Ann Kilzer</span></a>
+      <nav v-for="link in links" :key="link.name">
+        <a :href="link.path" class="m-2">{{ link.name }}</a>
+      </nav>
+    </div>
   </div>
 </template>
 

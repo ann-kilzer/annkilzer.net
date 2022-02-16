@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-max flex m-4">
+  <div class="container w-max flex mx-4 my-8">
     <div class="grid gap-4 grid-cols-6">
       <icon-link
         name="GitHub"
