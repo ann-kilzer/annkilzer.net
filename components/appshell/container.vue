@@ -3,9 +3,7 @@
     <h1 class="text-2xl font-semibold mb-4">
       {{title}}
     </h1>
-    <div>
-      <slot></slot>
-    </div>
+    <slot></slot>
   </div>
 </template>
 

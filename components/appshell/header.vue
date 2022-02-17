@@ -1,5 +1,5 @@
 <template>
-  <div class="container w-max flex m-4">
+  <div class="container w-max flex flex-wrap m-4">
     <div class="grid grid-cols-4 gap-8">
       <a href="/"><span class="font-bold">Ann Kilzer</span></a>
       <nav v-for="link in links" :key="link.name">

@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: [
@@ -10,7 +11,6 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -20,6 +20,10 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
+    },
+    screens: {
+      'xs': '300px',
+      ...defaultTheme.screens,
     },
   },
   variants: {
