@@ -3,7 +3,7 @@
     <h2 class="text-xl font-semibold my-4">Personal Projects</h2>
     <p>
       Check out my
-      <a target="_blank" href="https://github.com/ann-kilzer" class="underline"> GitHub page </a>
+      <weblink href="https://github.com/ann-kilzer">GitHub page</weblink>
       to see my hobby projects.
     </p>
 
@@ -73,11 +73,13 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Container from "~/components/appshell/container.vue";
+import container from "~/components/appshell/container.vue";
+import weblink from "~/components/weblink.vue"
 
 export default Vue.extend({
   components: {
-    Container,
+    container,
+    weblink,
   },
 });
 </script>
