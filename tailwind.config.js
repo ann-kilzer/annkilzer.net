@@ -20,6 +20,9 @@ module.exports = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
+      purple: colors.purple,
+      violet: colors.violet,
+      sky: colors.sky,
     },
     screens: {
       'xs': '300px',

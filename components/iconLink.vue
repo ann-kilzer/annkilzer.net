@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" :aria-label="name">
+  <a :href="href" :aria-label="name" class="hover:text-violet-500">
     <font-awesome-icon :icon="icon" />
   </a>
 </template>
