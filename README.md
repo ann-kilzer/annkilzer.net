@@ -1,5 +1,7 @@
 # annkilzer.net
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/af206e53-3ec1-433b-ac4f-4e1686f90a24/deploy-status)](https://app.netlify.com/sites/ann-kilzer/deploys)
+
 ## Build Setup
 
 ```bash
