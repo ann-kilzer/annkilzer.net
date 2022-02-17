@@ -1,5 +1,12 @@
 <template>
   <container title="Hello!">
+    <div class="float-right w-1/3 ml-4 mb-4">
+      <img
+        src="@/static/ann-kilzer.jpg"
+        alt="Ann Kilzer wearing a green coat and standing in front of a concrete wall"
+      />
+    </div>
+
     <p class="my-4">
       My name is Ann Kilzer. I'm a polymath, and my career is in software
       engineering. I currently work at
@@ -12,36 +19,31 @@
       Missoula, Montana, and attended college at Gonzaga University, where I
       majored in computer science, math, and art. I moved to Tokyo in early 2018
       with no job, just an eager dream of living abroad. In my spare time, I
-      enjoy Japanese Calligraphy 書道, Nihonga painting 日本画, cooking, hiking, 
+      enjoy Japanese Calligraphy 書道, Nihonga painting 日本画, cooking, hiking,
       and riding slow trains around Japan.
     </p>
     <p class="my-4">
       初めまして！杏キルザーです。
-      私は多趣味な人間で、キャリアはソフトウェアです。
-      今は
+      私は多趣味な人間で、キャリアはソフトウェアです。 今は
       <weblink href="https://www.mercari.com">メルカリ</weblink>
-      の「Trust &amp; Safety」チームで働きます。
+      の「Trust &amp; Safety」チームで働いています。
     </p>
 
     <p class="my-4">
-      テキサス大学オースティン校でコンピュータサイエンスの修士号を取得し、数年間プライバシーの研究に従事した後、現在に至る。
+      テキサス大学オースティン校で数年間プライバシーについての研究に従事し、コンピュータサイエンスの修士号を取得しました。
       私の出身はミズーラ市モンタナ。
       「Gonzaga]大学では、コンピューターサイエンス、数学、アートを学びました。
-      2018年に東京に移住しました。
+      その後、2018年に東京に移住しました。
       趣味は書道、日本画、料理、ハイキング、鉄道に乗ること。
-
-      
     </p>
-    <p>
-      よろしくお願いします。
-    </p>
+    <p>よろしくお願いします。</p>
   </container>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
 import container from "~/components/appshell/container.vue";
-import weblink from "~/components/weblink.vue"
+import weblink from "~/components/weblink.vue";
 
 export default Vue.extend({
   components: {
