@@ -1,6 +1,5 @@
 <template>
-  <div class="container">
-    <h1 class="text-2xl font-semibold mb-4">Software</h1>
+  <container title="Software">
     <h2 class="text-xl font-semibold my-4">Personal Projects</h2>
     <p>
       Check out my
@@ -69,5 +68,16 @@
         2006)
       </li>
     </ul>
-  </div>
+  </container>
 </template>
+
+<script lang="ts">
+import Vue from "vue";
+import Container from "~/components/appshell/container.vue";
+
+export default Vue.extend({
+  components: {
+    Container,
+  },
+});
+</script>

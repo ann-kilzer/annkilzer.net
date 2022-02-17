@@ -1,11 +1,12 @@
 <template>
-  <div>
-    <h1 class="text-2xl font-semibold mb-4">Hello!</h1>
+  <container title="Hello!">
     <p class="my-4">
       My name is Ann Kilzer. I'm a polymath, and my career is in software
       engineering. I am currently a software engineer at
       <a target="_blank" href="https://www.mercari.com" 　class="underline">
-        Mercari</a> on the Trust &amp; Safety team.
+        Mercari</a
+      >
+      on the Trust &amp; Safety team.
     </p>
     <p class="my-4">
       I received my Master's in Computer Science from the University of Texas at
@@ -20,13 +21,16 @@
       初めまして！杏キルザーです。東京にすんでいます。日本画を描くことと、書道をすることが大好きです。
       電車も大好きです🚂！よろしくお願いします。
     </p>
-  </div>
+  </container>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
+import Container from "~/components/appshell/container.vue";
 
 export default Vue.extend({
-  components: {},
+  components: {
+    Container,
+  },
 });
 </script>
