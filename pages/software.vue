@@ -1,13 +1,19 @@
 <template>
   <container title="Software">
-    <h2 class="text-xl font-semibold my-4">Personal Projects</h2>
+    <h2 class="text-xl font-semibold my-4">
+      Personal Projects
+    </h2>
     <p>
       Check out my
-      <weblink href="https://github.com/ann-kilzer">GitHub page</weblink>
+      <weblink href="https://github.com/ann-kilzer">
+        GitHub page
+      </weblink>
       to see my hobby projects.
     </p>
 
-    <h2 class="text-xl font-semibold my-4">Publications &amp; Presentations</h2>
+    <h2 class="text-xl font-semibold my-4">
+      Publications &amp; Presentations
+    </h2>
 
     <ul class="list-disc mx-4">
       <li>
@@ -35,7 +41,9 @@
       </li>
     </ul>
 
-    <h1 class="text-xl font-semibold my-4">Selected Work Experiences</h1>
+    <h1 class="text-xl font-semibold my-4">
+      Selected Work Experiences
+    </h1>
 
     <ul class="list-disc mx-4">
       <li>Mercari: Software Engineer (October 2020 - Present)</li>

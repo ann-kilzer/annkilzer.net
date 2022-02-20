@@ -3,7 +3,7 @@
     target="_blank"
     :href="href"
     class="underline text-emerald-700 hover:text-emerald-500"
-    ><slot></slot>
+  ><slot />
   </a>
 </template>
 
