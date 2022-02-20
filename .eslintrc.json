@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:nuxt/recommended",
+      "plugin:vue/recommended", // 2x
+      // "plugin:vue/vue3-recommended",
+      "plugin:tailwind/recommended"
+  ],
+  "env": {
+    "jest/globals": true
+  },
+  "globals": {
+    "module": "readonly",
+    "require": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": ["./tsconfig.json"], "extraFileExtensions": [".vue"] },
+  "plugins": [
+      "@typescript-eslint",
+      "jest"
+  ],
+  "rules": {
+
+  },
+  "ignorePatterns": []
+}
