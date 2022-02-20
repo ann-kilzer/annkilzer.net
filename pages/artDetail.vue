@@ -1,9 +1,11 @@
 <template>
   <div>
     <h1>{{ name }}</h1>
-    <img src="http://placekitten.com/700/500">
-    <span>{{ date }}</span><br>
-    <span>{{ medium }}</span><br>
+    <img src="http://placekitten.com/700/500" />
+    <span>{{ date }}</span
+    ><br />
+    <span>{{ medium }}</span
+    ><br />
     <span>{{ about }}</span>
   </div>
 </template>

@@ -1,8 +1,6 @@
 <template>
   <container title="Fine Art">
-    <p class="my-4">
-      Coming soon :)
-    </p>
+    <p class="my-4">Coming soon :)</p>
     <div class="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4">
       <div
         v-for="i in boxes"
@@ -10,7 +8,7 @@
         container
         class="border-yellow-200 box-border border-4"
       >
-        <img src="http://placekitten.com/300/300">
+        <img src="http://placekitten.com/300/300" />
       </div>
     </div>
   </container>

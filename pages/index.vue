@@ -5,15 +5,13 @@
         class="sm:float-right sm:w-1/3"
         src="@/static/ann-kilzer.jpg"
         alt="Ann Kilzer wearing a green coat and standing in front of a concrete wall"
-      >
+      />
     </div>
     <div class="">
       <p class="my-4 max-w-prose">
         My name is Ann Kilzer. I'm a polymath, and my career is in software
         engineering. I currently work at
-        <weblink href="https://www.mercari.com">
-          Mercari
-        </weblink>
+        <web-link href="https://www.mercari.com"> Mercari </web-link>
         on the Trust &amp; Safety team.
       </p>
       <p class="my-4 max-w-prose">
@@ -28,9 +26,7 @@
       <p class="my-4 max-w-prose">
         初めまして！杏キルザーです。
         私は多趣味な人間で、職業はソフトウェアエンジニアです。 今は
-        <web-link href="https://www.mercari.com">
-          メルカリ
-        </web-link>
+        <web-link href="https://www.mercari.com"> メルカリ </web-link>
         の「Trust &amp; Safety」チームで働いています。
       </p>
 
@@ -40,9 +36,7 @@
         その後、2018年に東京に移住し、現在に至ります。
         趣味は書道、日本画、料理、ハイキング、電車に乗ることです。
       </p>
-      <p class="my-4 max-w-prose">
-        よろしくお願いします。
-      </p>
+      <p class="my-4 max-w-prose">よろしくお願いします。</p>
     </div>
   </container>
 </template>

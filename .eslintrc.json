@@ -1,13 +1,13 @@
 {
   "root": true,
   "extends": [
-      "airbnb",
-      "eslint:recommended",
-      "plugin:@typescript-eslint/recommended",
-      "plugin:nuxt/recommended",
-      "plugin:vue/recommended", // 2x
-      // "plugin:vue/vue3-recommended",
-      "plugin:tailwind/recommended"
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:nuxt/recommended",
+    "plugin:vue/recommended", // 2x
+    // "plugin:vue/vue3-recommended",
+    "plugin:tailwind/recommended",
+    "prettier" // put me last!
   ],
   "env": {
     "browser": true,
@@ -18,17 +18,14 @@
     "require": "readonly"
   },
   "parser": "vue-eslint-parser",
-  "parserOptions": { 
-    "project": ["./tsconfig.json"], 
-    "extraFileExtensions": [".vue"],
-    "parser": "@typescript-eslint/parser"
+  "parserOptions": {
+    "project": ["./tsconfig.json"],
+    "extraFileExtensions": [".vue,.json"]
+    // "parser": "@typescript-eslint/parser"
   },
-  "plugins": [
-      "@typescript-eslint",
-      "jest"
-  ],
+  "plugins": ["@typescript-eslint", "eslint-plugin-json", "nuxt", "jest"],
   "rules": {
     "vue/multi-word-component-names": "off"
   },
-  "ignorePatterns": []
+  "ignorePatterns": ["dist/**"]
 }

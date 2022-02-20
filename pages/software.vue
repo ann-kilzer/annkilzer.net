@@ -1,19 +1,13 @@
 <template>
   <container title="Software">
-    <h2 class="text-xl font-semibold my-4">
-      Personal Projects
-    </h2>
+    <h2 class="text-xl font-semibold my-4">Personal Projects</h2>
     <p>
       Check out my
-      <web-link href="https://github.com/ann-kilzer">
-        GitHub page
-      </web-link>
+      <web-link href="https://github.com/ann-kilzer"> GitHub page </web-link>
       to see my hobby projects.
     </p>
 
-    <h2 class="text-xl font-semibold my-4">
-      Publications &amp; Presentations
-    </h2>
+    <h2 class="text-xl font-semibold my-4">Publications &amp; Presentations</h2>
 
     <ul class="list-disc mx-4">
       <li>
@@ -41,13 +35,13 @@
       </li>
     </ul>
 
-    <h1 class="text-xl font-semibold my-4">
-      Selected Work Experiences
-    </h1>
+    <h1 class="text-xl font-semibold my-4">Selected Work Experiences</h1>
 
     <ul class="list-disc mx-4">
       <li>Mercari: Software Engineer (October 2020 - Present)</li>
-      <li>Women Who Code Tokyo: Director (volunteer) (October 2020 - Present)</li>
+      <li>
+        Women Who Code Tokyo: Director (volunteer) (October 2020 - Present)
+      </li>
       <li>Curvegrid: Lead Software Engineer (March 2018 - July 2020)</li>
 
       <li>Indeed: Software Engineer (September 2014 to July 2017)</li>
@@ -74,7 +68,8 @@
         Department of Mathematics at California State University, San
         Bernardino: NSF Research Experience for Undergraduates (July - August
         2006)
-      </li>~/components/webLink.vue
+      </li>
+      ~/components/webLink.vue
     </ul>
   </container>
 </template>
@@ -82,7 +77,7 @@
 <script lang="ts">
 import Vue from "vue";
 import container from "~/components/appshell/container.vue";
-import webLink from "~/components/webLink.vue"
+import webLink from "~/components/webLink.vue";
 
 export default Vue.extend({
   components: {
