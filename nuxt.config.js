@@ -1,6 +1,11 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
 
 export default defineNuxtConfig({
+  // https://github.com/nuxt/framework/issues/886#issuecomment-1041821406
+  bridge: {
+    nitro: false,
+  },
+  target: 'static',
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
