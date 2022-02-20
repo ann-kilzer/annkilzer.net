@@ -5,9 +5,9 @@
     </h2>
     <p>
       Check out my
-      <weblink href="https://github.com/ann-kilzer">
+      <web-link href="https://github.com/ann-kilzer">
         GitHub page
-      </weblink>
+      </web-link>
       to see my hobby projects.
     </p>
 
@@ -74,7 +74,7 @@
         Department of Mathematics at California State University, San
         Bernardino: NSF Research Experience for Undergraduates (July - August
         2006)
-      </li>
+      </li>~/components/webLink.vue
     </ul>
   </container>
 </template>
@@ -82,12 +82,12 @@
 <script lang="ts">
 import Vue from "vue";
 import container from "~/components/appshell/container.vue";
-import weblink from "~/components/weblink.vue"
+import webLink from "~/components/webLink.vue"
 
 export default Vue.extend({
   components: {
     container,
-    weblink,
+    webLink,
   },
 });
 </script>
