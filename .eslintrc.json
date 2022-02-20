@@ -10,6 +10,7 @@
       "plugin:tailwind/recommended"
   ],
   "env": {
+    "browser": true,
     "jest/globals": true
   },
   "globals": {
