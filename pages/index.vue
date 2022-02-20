@@ -11,7 +11,7 @@
       <p class="my-4 max-w-prose">
         My name is Ann Kilzer. I'm a polymath, and my career is in software
         engineering. I currently work at
-        <weblink href="https://www.mercari.com">Mercari</weblink>
+        <web-link href="https://www.mercari.com"> Mercari </web-link>
         on the Trust &amp; Safety team.
       </p>
       <p class="my-4 max-w-prose">
@@ -26,7 +26,7 @@
       <p class="my-4 max-w-prose">
         初めまして！杏キルザーです。
         私は多趣味な人間で、職業はソフトウェアエンジニアです。 今は
-        <weblink href="https://www.mercari.com">メルカリ</weblink>
+        <web-link href="https://www.mercari.com"> メルカリ </web-link>
         の「Trust &amp; Safety」チームで働いています。
       </p>
 
@@ -44,12 +44,12 @@
 <script lang="ts">
 import Vue from "vue";
 import container from "~/components/appshell/container.vue";
-import weblink from "~/components/weblink.vue";
+import webLink from "~/components/webLink.vue";
 
 export default Vue.extend({
   components: {
     container,
-    weblink,
+    webLink,
   },
 });
 </script>

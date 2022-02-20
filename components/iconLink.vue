@@ -9,9 +9,12 @@ import Vue from "vue";
 
 export default Vue.extend({
   props: {
-    name: String,
-    href: String,
-    icon: String, // denoted by font awesome classes
+    name: { type: String, required: true },
+    href: { type: String, required: true },
+    icon: {
+      type: String, // denoted by font awesome classes
+      required: true,
+    },
   },
   data() {
     return {};

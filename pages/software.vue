@@ -3,7 +3,7 @@
     <h2 class="text-xl font-semibold my-4">Personal Projects</h2>
     <p>
       Check out my
-      <weblink href="https://github.com/ann-kilzer">GitHub page</weblink>
+      <web-link href="https://github.com/ann-kilzer"> GitHub page </web-link>
       to see my hobby projects.
     </p>
 
@@ -39,7 +39,9 @@
 
     <ul class="list-disc mx-4">
       <li>Mercari: Software Engineer (October 2020 - Present)</li>
-      <li>Women Who Code Tokyo: Director (volunteer) (October 2020 - Present)</li>
+      <li>
+        Women Who Code Tokyo: Director (volunteer) (October 2020 - Present)
+      </li>
       <li>Curvegrid: Lead Software Engineer (March 2018 - July 2020)</li>
 
       <li>Indeed: Software Engineer (September 2014 to July 2017)</li>
@@ -67,6 +69,7 @@
         Bernardino: NSF Research Experience for Undergraduates (July - August
         2006)
       </li>
+      ~/components/webLink.vue
     </ul>
   </container>
 </template>
@@ -74,12 +77,12 @@
 <script lang="ts">
 import Vue from "vue";
 import container from "~/components/appshell/container.vue";
-import weblink from "~/components/weblink.vue"
+import webLink from "~/components/webLink.vue";
 
 export default Vue.extend({
   components: {
     container,
-    weblink,
+    webLink,
   },
 });
 </script>

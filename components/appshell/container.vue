@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <h1 class="text-2xl font-semibold mb-4">
-      {{title}}
+      {{ title }}
     </h1>
-    <slot></slot>
+    <slot />
   </div>
 </template>
 
@@ -12,7 +12,10 @@ import Vue from "vue";
 
 export default Vue.extend({
   props: {
-    title: String,
+    title: {
+      type: String,
+      default: ""
+    }
   },
   data() {
     return {};
