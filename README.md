@@ -1,6 +1,10 @@
 # annkilzer.net
 
+![Website](https://img.shields.io/website?down_message=oh%20no&up_message=online&url=https%3A%2F%2Fannkilzer.net)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/af206e53-3ec1-433b-ac4f-4e1686f90a24/deploy-status)](https://app.netlify.com/sites/ann-kilzer/deploys)
+![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fannkilzer.net)
+![GitHub language count](https://img.shields.io/github/languages/count/ann-kilzer/annkilzer.net)
+![Twitter Follow](https://img.shields.io/twitter/follow/stonecoldkilzer?style=social)
 
 ## Build Setup
 
