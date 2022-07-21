@@ -4,27 +4,27 @@
       <icon-link
         name="GitHub"
         href="https://github.com/ann-kilzer"
-        icon="fa-brands fa-github"
+        icon="github"
       />
       <icon-link
         name="Twitter"
         href="https://twitter.com/stonecoldkilzer"
-        icon="fa-brands fa-twitter"
+        icon="twitter"
       />
       <icon-link
         name="LinkedIn"
         href="https://www.linkedin.com/in/annkilzer/"
-        icon="fa-brands fa-linkedin-in"
+        icon="linkedin"
       />
       <icon-link
         name="Instagram"
         href="https://www.instagram.com/cat_bacon/"
-        icon="fa-brands fa-instagram"
+        icon="instagram"
       />
       <icon-link
         name="Medium"
         href="https://medium.com/@annkilzer"
-        icon="fa-brands fa-medium"
+        icon="medium"
       />
     </div>
   </div>

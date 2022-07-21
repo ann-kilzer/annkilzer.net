@@ -41,7 +41,14 @@ export default defineNuxtConfig({
     // '@nuxt/typescript-build',  // Not compatible with bridge
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/fontawesome",
   ],
+
+  fontawesome: {
+    icons: {
+      brands: ["linkedin", "medium", "instagram", "twitter", "github"],
+    },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
