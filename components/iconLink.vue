@@ -4,7 +4,7 @@
     :aria-label="name"
     class="hover:text-violet-500 text-zinc-700 text-xl"
   >
-    <font-awesome-icon :icon="['fab', icon]" class="h-5 w-5" />
+    <font-awesome-icon :icon="['fab', icon]" class="h-7 w-7" />
   </a>
 </template>
 
