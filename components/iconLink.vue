@@ -1,6 +1,10 @@
 <template>
-  <a :href="href" :aria-label="name" class="hover:text-violet-500">
-    <font-awesome-icon :icon="icon" />
+  <a
+    :href="href"
+    :aria-label="name"
+    class="hover:text-violet-500 text-zinc-700 text-xl"
+  >
+    <font-awesome-icon :icon="['fab', icon]" class="h-7 w-7" />
   </a>
 </template>
 
