@@ -54,7 +54,7 @@ export default defineNuxtConfig({
         "faGithub",
       ],
     },
-    addCSS: false,
+    addCss: false,
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
