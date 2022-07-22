@@ -2,9 +2,9 @@
   <a
     :href="href"
     :aria-label="name"
-    class="hover:text-violet-500 text-zinc-700 text-[2rem]"
+    class="hover:text-violet-500 text-zinc-700 text-xl"
   >
-    <font-awesome-icon :icon="['fab', icon]" />
+    <font-awesome-icon :icon="['fab', icon]" class="h-5 w-5" />
   </a>
 </template>
 
