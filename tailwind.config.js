@@ -1,20 +1,20 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const colors = require('tailwindcss/colors')
-const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
+    "./components/**/*.{vue,js}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
   ],
-  darkMode: 'class', // 'media' or 'class'
+  darkMode: "class", // 'media' or 'class'
   theme: {
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
+      transparent: "transparent",
+      current: "currentColor",
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
@@ -24,9 +24,10 @@ module.exports = {
       purple: colors.purple,
       violet: colors.violet,
       sky: colors.sky,
+      zinc: colors.zinc,
     },
     screens: {
-      'xs': '375px',
+      xs: "375px",
       ...defaultTheme.screens,
     },
   },
@@ -34,4 +35,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
