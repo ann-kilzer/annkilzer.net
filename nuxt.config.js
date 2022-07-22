@@ -46,7 +46,13 @@ export default defineNuxtConfig({
 
   fontawesome: {
     icons: {
-      brands: ["linkedin", "medium", "instagram", "twitter", "github"],
+      brands: [
+        "faLinkedin",
+        "faMedium",
+        "faInstagram",
+        "faTwitter",
+        "faGithub",
+      ],
     },
   },
 
