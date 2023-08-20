@@ -38,9 +38,13 @@
     <h1 class="text-xl font-semibold my-4">Selected Work Experiences</h1>
 
     <ul class="list-disc mx-4">
-      <li>Mercari: Software Engineer (October 2020 - Present)</li>
+      <li>Slalom Build: Software Architect (November 2022 - Present)</li>
       <li>
-        Women Who Code Tokyo: Director (volunteer) (October 2020 - Present)
+        Women Who Code: Senior Director, APAC (volunteer) (August 2023 - Present)
+      </li>
+      <li>Mercari: Software Engineer (October 2020 - November 2022)</li>
+      <li>
+        Women Who Code Tokyo: Director (volunteer) (October 2020 - July 2023)
       </li>
       <li>Curvegrid: Lead Software Engineer (March 2018 - July 2020)</li>
 
