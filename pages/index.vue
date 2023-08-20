@@ -11,8 +11,8 @@
       <p class="my-4 max-w-prose">
         My name is Ann Kilzer. I'm a polymath, and my career is in software
         engineering. I currently work at
-        <web-link href="https://www.mercari.com"> Mercari </web-link>
-        on the Trust &amp; Safety team.
+        <web-link href="https://www.slalombuild.com/"> Slalom Build </web-link>
+        as a Software Architect.
       </p>
       <p class="my-4 max-w-prose">
         I received my Master's in Computer Science from the University of Texas
@@ -26,8 +26,8 @@
       <p class="my-4 max-w-prose">
         初めまして！杏キルザーです。
         私は多趣味な人間で、職業はソフトウェアエンジニアです。 今は
-        <web-link href="https://www.mercari.com"> メルカリ </web-link>
-        の「Trust &amp; Safety」チームで働いています。
+        <web-link href="https://www.slalombuild.com/"> スラロームビールド </web-link>
+        の ソフトウェア・アーキテクトです。
       </p>
 
       <p class="my-4 max-w-prose">
